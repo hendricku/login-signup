@@ -1,0 +1,15 @@
+{
+    "name": "admin/hendrick-info",
+    "type": "project",
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Admin\\HendrickInfo\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "google/cloud-firestore": "^1.33",
+        "kreait/firebase-bundle": "^3.1"
+    }
+}
